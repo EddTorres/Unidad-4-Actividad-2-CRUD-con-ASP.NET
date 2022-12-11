@@ -66,9 +66,9 @@
             </td>
         </tr>
         <tr>
-            <td class="text-right" style="width: 114px">&nbsp;</td>
-            <td style="width: 33px">&nbsp;</td>
-            <td style="width: 561px">
+            <td class="text-right" style="width: 114px; height: 24px;"></td>
+            <td style="width: 33px; height: 24px;"></td>
+            <td style="width: 561px; height: 24px;">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TxtTelefono" ErrorMessage="Ingrese telefono de estudiante"></asp:RequiredFieldValidator>
             </td>
         </tr>
@@ -78,7 +78,7 @@
             <td style="width: 561px">
                 <asp:TextBox ID="TxtCodigo" runat="server" Width="122px" Enabled="False"></asp:TextBox>
 &nbsp;
-                <asp:Button ID="btnGenerarCodigo" runat="server" Text="Generar código" Width="126px" />
+                <asp:Button ID="btnGenerarCodigos" runat="server" Text="Generar código" Width="142px" Height="36px" />
             </td>
         </tr>
         <tr>
@@ -91,7 +91,7 @@
             <td style="width: 33px">&nbsp;</td>
             <td style="width: 561px">
                 <asp:Button ID="btnGuardar" runat="server" Text="Guardar" />
-                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" />
+                <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" style="height: 34px" />
             </td>
         </tr>
         <tr>

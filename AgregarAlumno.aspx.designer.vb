@@ -96,13 +96,13 @@ Namespace Pro1_Semana4_CRUD_Visual_Basic_MySQL
         Protected WithEvents TxtCodigo As Global.System.Web.UI.WebControls.TextBox
 
         '''<summary>
-        '''Control btnGenerarCodigo.
+        '''Control btnGenerarCodigos.
         '''</summary>
         '''<remarks>
         '''Campo generado automáticamente.
         '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         '''</remarks>
-        Protected WithEvents btnGenerarCodigo As Global.System.Web.UI.WebControls.Button
+        Protected WithEvents btnGenerarCodigos As Global.System.Web.UI.WebControls.Button
 
         '''<summary>
         '''Control btnGuardar.
