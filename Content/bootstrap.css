@@ -61,6 +61,7 @@ strong {
   font-weight: bold;
     color: #FF0066;
     font-size: x-large;
+    text-align: center;
 }
 dfn {
   font-style: italic;
