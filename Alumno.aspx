@@ -7,6 +7,12 @@
     </p>
     <p class="text-center">
         <strong>LISTADO ALUMNO</strong></p>
+        <asp:Button ID="btnAgregar" runat="server" Text="Agregar" Width="131px" />
+
+    <br />
+
+    <asp:placeholder ID="estudiantes" runat="server" />
+
     <p>
     </p>
 </asp:Content>
